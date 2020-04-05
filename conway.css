@@ -1,0 +1,40 @@
+.conway-board {
+    display: table;
+    border: 2px solid aliceblue;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.conway-row {
+    display: table-row;
+}
+
+/* td, */
+/* tr {
+    border: none
+} */
+
+.conway-row div {
+    /* background-color: #dddddd; */
+    width: 20px;
+    height: 20px;
+    display: table-cell;
+    border: 1px solid lavender
+}
+
+.checked {
+    background-color: black;
+}
+
+.buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+button {
+    background: black;
+    color: white;
+    margin: 5px;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
